@@ -4,7 +4,7 @@
 @section('content')
     <div class="container">
       <div class="row">
-            <h2>プロフィール情報</h2>
+            <h2>プロフィール</h2>
       </div>
         <div class="row">
             <div class="posts col-md-8 mx-auto mt-3">
@@ -19,10 +19,10 @@
                                     {{ $post->gender }}
                                 </div>
                                 <div class="introduction">
-                                    {{ str_limit($post->introduction, 200) }}
+                                    {{ str_limit($post->introduction, 300) }}
                                 </div>
                                 <div class="hobby">
-                                    {{ str_limit($post->hobby, 100) }}
+                                    {{ str_limit($post->hobby, 150) }}
                                 </div>
                             </div>
                         </div>
