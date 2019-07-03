@@ -21,7 +21,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rbga(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .headline .caption .title h1 {
@@ -49,5 +49,17 @@ body {
 
 .posts .post .image img {
   width: 250px;
+}
+
+.navbar-laravel {
+  color: #000;
+}
+
+.navbar-brand {
+  color: #000 !important;
+}
+
+.nav-link {
+  color: #000 !important;
 }
 
